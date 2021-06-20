@@ -13,8 +13,8 @@ Gallery - 0%,
 Service Pages - 0%.
 
 [RU]
-Готовый проект:
-https://elenaflowers.ru/
+## Готовый проект:
+# https://elenaflowers.ru/
 
 Идея и визуализация макета является персональной, в программе Figma.
 
