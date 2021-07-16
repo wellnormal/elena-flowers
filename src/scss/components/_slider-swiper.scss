@@ -1,0 +1,85 @@
+.swiper-container {
+	width: 720px;
+	height: 350px;
+	padding: 0 0 50px;
+}
+@media (max-width: 767px) {
+	.swiper-container {
+		width: 450px;
+		height: 350px;
+	}
+}
+@media (max-width: 576px) {
+	.swiper-container {
+		width: 280px;
+		height: 350px;
+	}
+}
+
+//Стили кнопок вперёд-назад
+.swiper-container__btn {
+	position: absolute;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	bottom: 0px;
+	width: 100%;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+	margin-bottom: 7px;
+	position: static;
+	background-color: #e0e0e0;
+	width: 20px;
+	height: 20px;
+	border-radius: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	z-index: 11;
+}
+
+.swiper-button-prev {
+	margin-right: 85px;
+}
+
+.swiper-button-next {
+	margin-left: 85px;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+	font-size: 10px;
+	color: #b22dbb;
+}
+
+.swiper-slide {
+	cursor: pointer;
+	&__photo {
+		overflow: hidden;
+		height: 300px;
+	}
+
+	&__photo img {
+		width: 100%;
+		height: 100%;
+		-o-object-fit: cover;
+		object-fit: cover;
+	}
+}
+//Стили для пагинации
+/*
+	.swiper-pagination-bullets{
+		background-color: #fff;
+		width: 10px;
+		height: 10px;
+		margin: 0 10px;
+		opacity: 1;
+	}*/
+.swiper-pagination-bullet-active {
+	background-color: #b22dbb;
+}

@@ -1,0 +1,21 @@
+//Шрифты
+@import '_fonts.scss';
+
+//Обнуление и общие
+@import '_null.scss';
+@import '_overall.scss';
+
+//Секции
+@import 'sections/_header.scss';
+@import 'sections/_mainscreen.scss';
+@import 'sections/_about.scss';
+@import 'sections/_gallery.scss';
+@import 'sections/_positives.scss';
+@import 'sections/_article.scss';
+@import 'sections/_footer.scss';
+
+//Компоненты
+@import 'components/_base-line.scss';
+@import 'components/_animate.scss';
+@import 'components/_slider-swiper.scss';
+@import 'components/_mainscreen_scroll-mouse.scss';
